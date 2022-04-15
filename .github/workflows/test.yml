@@ -1,4 +1,4 @@
-name: build
+name: test
 on:
   pull_request:
   push:
@@ -15,5 +15,5 @@ jobs:
         distribution: 'adopt'
         architecture: x64
     - name: Build and Test
-      run: sbt -v +compile
+      run: sbt -v +test
 

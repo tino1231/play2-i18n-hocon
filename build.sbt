@@ -10,6 +10,11 @@ description := "A Play modules that provides I18n using Hocon as the messages fi
 
 scalacOptions := Seq("-feature", "-deprecation")
 
+libraryDependencies ++= Seq(
+  "org.scalatestplus.play" %% "scalatestplus-play" % "5.1.0" % Test
+)
+
 lazy val root = (project in file("."))
   .enablePlugins(PlayScala)
   .disablePlugins(PlayLayoutPlugin)
+
