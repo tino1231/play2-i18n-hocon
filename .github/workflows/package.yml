@@ -16,6 +16,4 @@ jobs:
           distribution: 'adopt'
           architecture: x64
       - name: Publish package
-        run: mvn --batch-mode deploy
-        env:
-          GITHUB_TOKEN: ${{ secrets.SECRET_PACK }}
+        run: sbt -v publish
