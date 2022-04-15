@@ -1,6 +1,8 @@
 # play2-i18n-hocon
 A Playframework module to use HOCON for i18n instead of properties
 
+[![test](https://github.com/tino1231/play2-i18n-hocon/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/tino1231/play2-i18n-hocon/actions/workflows/test.yml)
+
 ## Fork of play-i18n-hocon
 
 play2-i18n-hocon is a fork of [play-i18n-hocon](https://github.com/marcospereira/play-i18n-hocon).
