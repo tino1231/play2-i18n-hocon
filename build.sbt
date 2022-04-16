@@ -11,7 +11,6 @@ description := "A Play modules that provides I18n using Hocon as the messages fi
 githubOwner := "tino1231"
 githubRepository :="play2-i18n-hocon"
 githubTokenSource := TokenSource.GitConfig("github.token") || TokenSource.Environment("GITHUB_TOKEN")
-
 scalacOptions := Seq("-feature", "-deprecation")
 
 libraryDependencies ++= Seq(

@@ -16,3 +16,8 @@ server.pid
 .cache
 /.metals
 /.vscode
+/samples/java/project/project
+/samples/java/project/target
+/samples/java/target
+/samples/java/logs
+/samples/java/.bsp
