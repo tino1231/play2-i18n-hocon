@@ -1,6 +1,7 @@
 # play2-i18n-hocon
 
 [![test](https://github.com/tino1231/play2-i18n-hocon/workflows/test/badge.svg?branch=main)](https://github.com/tino1231/play2-i18n-hocon/actions/workflows/test.yml)
+
 A Playframework module to use HOCON for i18n instead of properties
 
 [HOCON](https://github.com/typesafehub/config/blob/v1.3.0/HOCON.md) (Human-Optimized Config Object Notation) and Typesafe Config are the standard way to [configure Play applications](https://www.playframework.com/documentation/2.8.x/Configuration). But, for Internationalization, Play uses [Java Properties](https://docs.oracle.com/javase/tutorial/essential/environment/properties.html) which don't have a syntax to structure an tree of keys used to i18n.
@@ -23,6 +24,12 @@ A Playframework module to use HOCON for i18n instead of properties
 ```
 
 This is not meant to be used as a drop-in replacement to default built-in module since Java Properties syntax is not compatible with HOCON.
+
+Several versions of the library are available depending on the version of the Play framework:
+| play vesrion  | i18n hocon version |
+| ------------- | ------------- |
+| until 2.6  | [play-i18n-hocon](https://github.com/marcospereira/play-i18n-hocon)  |
+| 2.8  | 1.0.0  |
 
 ## How to use
 
