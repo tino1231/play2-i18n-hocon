@@ -40,8 +40,7 @@ Just follow the steps below:
 Add the dependency to your `build.sbt` file:
 
 ```scala
-externalResolvers += "hocon packages" at "https://maven.pkg.github.com/tino1231/play2-hocon-i18n"
-libraryDependencies += "com.github.tino1231" %% "play2-hocon-i18n" % "1.0.0"
+libraryDependencies += "io.github.tino1231" %% "play2-hocon-i18n" % "1.0.0"
 ```
 
 ### Disable built-in I18n Module
